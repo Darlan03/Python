@@ -1,7 +1,7 @@
 # Crie um programa que leia o nome de uma pessoa e mostre:
 # O nome com todas as letras maiusculas.
 # O nome com minusculas.
-# Quantas letras ao todo (sem considerar espaços).
+# Quantas letras ao total sem considerar espaços.
 # quantas letras tem o primeiro nome.
 
 nome = str(input('Digite seu nome completo: ')).strip()
