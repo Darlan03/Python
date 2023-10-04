@@ -4,3 +4,6 @@
 # dezena: 3
 # centena: 8
 # milhas: 1
+
+num = float(input('Digite um número entre 0 e 9.999'))
+print(num)
