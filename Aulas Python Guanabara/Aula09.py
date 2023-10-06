@@ -15,7 +15,7 @@ print(len(frase))
 frase.count('o')
 frase.count('o', 0,13)
 
-# Função find é encontrar quantas vezes aparece determinada sequencia de caracteres
+# Função find é encontrar em que posição aparece determinada sequencia de caracteres
 frase.find('deo')
 
 # Se procurar uma sequencia de caractere e o valor retornar -1 quer dizer que essa sequencia não existe onde esta procurando
