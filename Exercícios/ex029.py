@@ -5,11 +5,11 @@
 from time import sleep
 from random import randint
 velocidade = randint(79, 90)
-print('---' *10)
+print('---' *12)
 print('CUIDADO, RADAR À FRENTE!\nLimite de velocidade 80km/h')
-print('---' *10)
+print('---' *12)
 print('Verificando velocidade do veículo...')
-print('---' *10)
+print('---' *12)
 sleep(3)
 print('A velocidade registrada foi de {}Km/h'.format(velocidade))
 if velocidade > 80:
