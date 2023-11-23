@@ -4,7 +4,7 @@
 
 casa = float(input('Qual o valor do imóvel? R$'))
 sal = float(input('Qual seu salário? R$'))
-anos = float(input('Em quantos anos deseja pagar o imóvel? '))
+anos = int(input('Em quantos anos deseja pagar o imóvel? '))
 mensal = (casa/anos)/12
 print('O valor da mensalidade será de R${:.2f}'.format(mensal))
 if mensal > (sal*30)/100:
